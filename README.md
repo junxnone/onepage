@@ -2,6 +2,8 @@
 
 This is a template OnePage [[Demo](https://junxnone.github.io/onepage/)]
 
+[[Use This Templage](https://github.com/junxnone/onepage/generate)]
+
 
 ![](https://img.shields.io/badge/%E2%9C%8C-CV-green)
 ![](https://img.shields.io/badge/%E2%9C%8C-ML&DL-green)
