@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		var mdfile = 'README.md'
 		if (location.hash.slice(1) != '/')
 			mdfile = location.hash.slice(1) + '.md'
-		var url = repo + '/tree/master/' + mdfile
+		var url = repo + '/tree/main/' + mdfile
 		window.open(url)
 	})
 })
