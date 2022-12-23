@@ -7,9 +7,6 @@
   <link rel="shortcut icon" type="image/png" href="assets/logo_favicon.png"/>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="assets/vue.css">
-  <!--<link rel="stylesheet" href="assets/darklight.min.css">-->
-  <link rel="stylesheet" href="assets/docsify-sidebar-collapse.min.css">
-  <link rel="stylesheet" href="assets/gitalk.css">
 
 
   
@@ -32,33 +29,13 @@
       errorText  : 'Error',
       successText: '已复制'
     },
-    search: {
-      maxAge: 86400000,
-      paths: 'auto',
-      placeholder: '搜索',
-      noData: '啥也没找到',
-      namespace: 'twiki',
-      depth: 6
-    },
-    count:{
-      countable:true,
-      position: 'top',
-      float: 'left',
-      fontsize:'0.9em',
-      color:'rgb(255,0,0)',
-      language:'chinese'
-    },
   }
 
   
-  </script>
+</script>
   <script src="assets/docsify.min.js"></script>
   <script src="assets/docsify-copy-code.min.js"></script>
-  <script src="assets/search.min.js"></script>
-  <script src="assets/docsify-sidebar-collapse.min.js"></script>
   <script src="assets/wikilink.min.js"></script>
-  <script src="assets/docsify.gitalk.min.js"></script>
-  <script src="assets/gitalk.min.js"></script>
   <!-- CDN files for docsify-katex -->
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@1.4.4/dist/docsify-katex.js"></script>
   <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@1.4.4/dist/docsify-katex.js"></script> -->
@@ -75,24 +52,6 @@
   <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
   <script>mermaid.initialize({ startOnLoad: true });</script>
 
-  <script>
-  
-  const gitalk = new Gitalk({
-    clientID: '91b46a4472ca8bff4fe6',
-    clientSecret: '4f97a59f21b6fc23798d6c3f2e0997fa61845e9d',
-    repo: 'gitalk_comment',
-    owner: 'junxnone',
-    admin: ['junxnone'],
-    id: location.href.split(/\/|\?/)[3] + '-' + location.href.split(/\/|\?/)[5],
-    // facebook-like distraction free mode
-    distractionFreeMode: true
-  })
-  window.onhashchange = function(event){
-    if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
-      location.reload()
-    }
-  }
-  </script>
   
     <script>
     window.$docsify.plugins.push(
