@@ -4,6 +4,7 @@ This is a template OnePage [[Demo](https://junxnone.github.io/onepage/)]
 
 [[Use This Templage](https://github.com/junxnone/onepage/generate)]
 
+# Badges
 
 ![](https://img.shields.io/badge/%E2%9C%8C-CV-green)
 ![](https://img.shields.io/badge/%E2%9C%8C-ML&DL-green)
@@ -21,10 +22,11 @@ This is a template OnePage [[Demo](https://junxnone.github.io/onepage/)]
 ![](https://img.shields.io/badge/%DB%A9-Hardware-lightgrey)
 ![](https://img.shields.io/badge/%DB%A9-EmbeddingOS-lightgrey)  
 
-
+# Github Stats
 
 ![Junx's GitHub stats](https://github-readme-stats.vercel.app/api?username=junxnone&show_icons=true&theme=dark) 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=junxnone&langs_count=10&hide=javascript,html,CSS,SCSS&layout=compact&custom_title=Junx+Most+Used+Languages)](https://github.com/junxnone)
 
+# Skills Map
 
-[markmap show](https://junxnone.github.io/onepage/markmap.html?md=https://junxnone.github.io/skills.md ':include :type=iframe width=100% height=400px')
+[markmap show](https://junxnone.github.io/onepage/markmap.html?md=https://junxnone.github.io/skills.md ':include :type=iframe width=100% height=800px')
