@@ -29,4 +29,4 @@ This is a template OnePage [[Demo](https://junxnone.github.io/onepage/)]
 
 # Skills Map
 
-[markmap show](https://junxnone.github.io/onepage/markmap.html?md=https://junxnone.github.io/skills.md ':include :type=iframe width=100% height=800px')
+[markmap show](https://junxnone.github.io/onepage/markmap.html?md=https://raw.githubusercontent.com/junxnone/onepage/refs/heads/main/skills.md ':include :type=iframe width=100% height=800px')
